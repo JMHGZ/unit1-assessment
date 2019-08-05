@@ -1,0 +1,50 @@
+html, * {
+    box-sizing: border-box;
+    outline: none;
+  }
+
+  body {
+    height: 100vh;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+
+  h1 {
+      display: flex;
+      font-size: 10vmin;
+      align-content: center;
+      justify-content: center;
+  }
+ 
+  button {
+      background-color: rgb(169	169	169);
+      height: 8vmin;
+      width: 8vmin;
+      border-radius: 10px;
+      color: white;
+      font-size: 20px;
+      padding: 0;
+  }
+
+  button:hover {
+    background-color: white;
+    height: 8vmin;
+    width: 8vmin;
+    border-radius: 10px;
+    color: rgb(169	169	169);
+    font-size: 20px;
+    padding: 0;
+  }
+
+  input {
+      border: .4vmin solid rgb(169 169 169);
+      height: 8vmin;
+      width: 20vmin;
+      margin: 0 7px 0 7px;
+      border-radius: 10px;
+      font-size: 20px;
+      text-align: center;
+  }
